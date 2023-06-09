@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/hire.css">
+</head>
+<body>
+    <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#contact">Hire Me</a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">Hello</a></li>
+                <li><a href="#about">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <section id="home" class="container-fluid">
+        <div class="textAdjust">
+          <h1>Hello friend</h1>
+          <p>My name is Jeremy.</p>
+          <p>I'm a programmer from Australia.</p>
+          <p>Perhaps we can work together?</p>
+        </div>
+        </section>
+        <section id="about">
+          <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <span class="fa fa-briefcase"></span>
+              <h3>Business Consulting</h3>
+              <p>Make the process of taking your business online as pain-free as possible. Providing advertising expertise in Google AdWords and Facebook Adverts, along with a surefire SEO strategy.</p>
+            </div>
+            <div class="col-sm-4">
+              <span class="fa fa-laptop"></span>
+              <h3>Web Development</h3>
+              <p>Building websites is my bread and butter. Working with HTML5, CSS3 and Javascript every day, I also use frameworks such as Bootstrap and AngularJS. Let me turn your ideas into code.</p>
+            </div>
+            <div class="col-sm-4">
+              <span class="fa fa-bar-chart"></span>
+              <h3>Data Analysis</h3>
+              <p>Collecting, cleaning, and analysing your business data to find value-adding insights. I use R, Python, and SQL to interpret complex information into intelligible reports and dashboards.</p>
+            </div>
+          </div>
+          </div>
+        </section>
+        <section id="portfolio" class="container-fluid">
+          <h3 class="text-center">Some recent projects...</h3>
+          <div id="pSlider" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#pSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#pSlider" data-slide-to="1"></li>
+              <li data-target="#pSlider" data-slide-to="2"></li>
+              <li data-target="#pSlider" data-slide-to="3"></li>
+              <li data-target="#pSlider" data-slide-to="4"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://i.imgur.com/Sy5plIA.jpg" alt="Local Weather Board">
+                    <div class="carousel-caption">
+                        <h3>Local Weather Board</h3>
+                        <p>Uses geolocation to find and display local weather conditions</p>
+                        <a class="btn btn-default" href="https://codepen.io/gornstats/full/xGoWrq" target="_blank" role="button">View <span class="fa fa-codepen"></span></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.imgur.com/InBzCwF.jpg" alt="Twitch Tracker">
+                    <div class="carousel-caption">
+                        <h3>Twitch.tv Tracker</h3>
+                        <p>Check online streaming status of game developers using the Twitch API</p>
+                        <a class="btn btn-default" href="https://codepen.io/gornstats/full/pJMXNY" target="_blank" role="button">View <span class="fa fa-codepen"></span></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.imgur.com/hH2GCRi.jpg" alt="Coke Slogan Machine">
+                    <div class="carousel-caption">
+                        <h3>Coca-Cola Slogans</h3>
+                        <p>Enjoy random advertising slogans from Coke's marketing history</p>
+                        <a class="btn btn-default" href="https://codepen.io/gornstats/full/KpLxgm" target="_blank" role="button">View <span class="fa fa-codepen"></span></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.imgur.com/seelglp.jpg" alt="Wikipedia Viewer">
+                    <div class="carousel-caption">
+                        <h3>Wiki Wizard</h3>
+                        <p>Search (with autocomplete) every wikipedia article or read a random entry</p>
+                        <a class="btn btn-default" href="https://codepen.io/gornstats/full/meJeJd" target="_blank" role="button">View <span class="fa fa-codepen"></span></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.imgur.com/1UbJFnY.jpg" alt="Hexagon-key Calculator">
+                    <div class="carousel-caption">
+                        <h3>Javascript Calculator</h3>
+                        <p>For calculating things. Bonus rotation feature.</p>
+                        <a class="btn btn-default" href="https://codepen.io/gornstats/full/vNLyaj" target="_blank" role="button">View <span class="fa fa-codepen"></span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#pSlider" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#pSlider" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        </section>
+        <section id="contact" class="container-fluid">
+          <h2 class="text-center">I'd love to hear from you</h2>
+          <img src="00.jpg" class="img-responsive img-circle" alt="Call me Obama">
+          <div id="buttonbox">
+            <a class="btn btn-lg btn-default btn-block" href="mailto:gornicorp@gmail.com" role="button"><span class="fa fa-envelope"></span> Email</a>
+            <a class="btn btn-lg btn-default btn-block" href="https://twitter.com/GornStats" role="button"><span class="fa fa-twitter-square"></span> Twitter</a>
+            <a class="btn btn-lg btn-default btn-block" href="https://au.linkedin.com/in/jgorn
+        " role="button"><span class="fa fa-linkedin-square"></span> LinkedIn</a>
+            <a class="btn btn-lg btn-default btn-block" href="https://github.com/Gornstats" role="button"><span class="fa fa-github-square"></span> Github</a>
+          </div>
+        </section>
+        </body>
+
+    
+      <script src="JS/hire.js"></script>
+
+
+
+</body>
+</html>
