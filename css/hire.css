@@ -1,0 +1,111 @@
+html, body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    color: #FFFEDF;
+    background: #3E4147;
+  }
+  
+  .navbar-inverse{
+    background: #2A2C31;
+    border-color: #2A2C31;
+  }
+  h3{
+    margin-top: 10px;
+  }
+  section{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-height: calc(100% - 50px);
+  }
+  #home{
+    height: 100%;
+    background: #3E4147 url("istockphoto-1335717953-612x612.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  .textAdjust{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 270px;
+    color: #000;
+    text-shadow: 1px 1px 0px #FFFEDF;
+  }
+  .textAdjust p{
+    margin-left: 5px;
+    font-size: 1.2em;
+  }
+  #about .row{
+    padding: 10% 0;
+  }
+  #about .fa{
+    border: 2px solid #DFBA69;
+    color: #DFBA69;
+    border-radius: 50%;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+  }
+  #about .fa:hover{
+    border: none;
+    font-size: 60px;
+  }
+  #about h3{
+    color: #DFBA69;
+  }
+  #about p{
+    line-height: 1.7;
+  }
+  #portfolio{
+    height: 100%;
+    height: calc(100% - 50px);
+  }
+  #pSlider{
+    height: 85%;
+  }
+  .carousel-inner, .carousel-inner > .item{
+    height: 100%;
+  }
+  .carousel-inner > .item > img{
+    margin: 0 auto;
+  }
+  .carousel-caption{
+    padding-top: 0;
+    padding-bottom: 35px;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0.8) 60%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(40%,rgba(0,0,0,0.8)), color-stop(60%,rgba(0,0,0,0.8)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0.8) 60%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0.8) 60%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0.8) 60%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0.8) 60%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+  }
+  #contact{
+    background: #2A2C31;
+  }
+  #contact > img{
+    width: 150px;
+    margin: 0 auto 10px auto;
+    border: 1px solid #FFFEDF;
+  }
+  #buttonbox{
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (max-width: 500px){
+    #home{
+      background-position: 75% 50%;
+    }
+    .textAdjust{
+      left: 5%;
+      top: 15%;
+    }
+  }
